@@ -26,7 +26,7 @@ const Home = () => {
 
     const res = await apiRes.json();
 
-    setMessage(res)
+    setMessage(res.data)
   };
 
   return (
