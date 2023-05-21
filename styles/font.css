@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  font-family: 'Karla', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+.custom-font {
+  font-family: 'Stylish', sans-serif;
+
+}
+
+.progress-bar {
+  z-index: 50;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: rgb(27, 255, 130);
+  transform-origin: 0%;
+}
+
+.dark .dark\:progress-bar {
+  z-index: 50;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: rgb(27, 255, 130);
+  transform-origin: 0%;
+}
+
+.code {
+  position: relative;
+}
+
+.code .copy-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 5;
+}
+code {
+  width:100%;
+}
+.language-python{
+  padding: 15px;
+  width:100% !important;
+  background-color: rgb(224, 224, 224);
+  border-radius: 0;
+  display: block;
+  overflow-x: scroll;
+  word-wrap: break-word;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.steps{
+  font-weight: bold;
+}
